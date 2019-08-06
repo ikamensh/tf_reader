@@ -8,7 +8,7 @@ def get_requirements():
 setup(
     name="tf_reader",
     py_modules=['tf_reader'],
-    version=0.01,
+    version=0.02,
     description="functions to read tfrecord file as python values.",
     author="Ilya Kamenshchikov",
     classifiers=[
@@ -21,6 +21,6 @@ setup(
         "Topic :: Utilities",
     ],
     license="MIT",
-    install_requires=get_requirements(),
+    # install_requires=get_requirements(),
     python_requires=">=3.6",
 )
